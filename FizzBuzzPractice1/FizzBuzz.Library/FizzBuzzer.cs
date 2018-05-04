@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace FizzBuzz.Library
 {
-    public class Class1
+    class FizzBuzzer
     {
+        public static string GetValue(int input)
+        {
+            return "1";
+        }
     }
 }
