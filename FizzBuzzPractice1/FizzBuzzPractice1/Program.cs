@@ -36,17 +36,18 @@ namespace FizzBuzzPractice1
             // 7 - Buzz
             // 21 - FizzBuzz
 
-            for (int i = 1; i < 100; i++)
+            for (int i = 1; i < 100; i++) // Fizz Buzz without int only strings
             {
                 var outOut = "";
 
-                if(i % 3 == 1) { outOut += "Fizz"; }
+                if (i % 3 == 1) { outOut += "Fizz"; }
                 if (i % 7 == 1) { outOut += "Buzz"; }
                 if (i % 15 == 1) { outOut += "Fizz Buzz"; }
 
                 Console.WriteLine(outOut);
 
             }
-        }
+
+        } // Main end
     }
 }
